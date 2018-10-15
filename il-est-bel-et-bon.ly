@@ -41,6 +41,14 @@ mensurstriche = \hide Staff.BarLine
       b1 | \break
       R1 |
       R1 |
+      e,8 fis g a b4 b |
+      b b b b |
+      a fis r2 |
+      e8 fis g a b4 b | \break
+      b b b b |
+      a fis8 fis a4 fis8 fis |
+      g4 e e d |
+      e2
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -54,6 +62,14 @@ mensurstriche = \hide Staff.BarLine
     toit deux fem -- mes
     tou -- tes d’un pa --
     ys,
+    Il est bel et bon, bon,
+    bon, bon, bon, com --
+    mè -- re,
+    il est bel et bon, bon,
+    bon, bon, bon, com --
+    mè -- re, com -- mè -- re, com --
+    mè -- re, mon ma --
+    ry.
   }
   \new Staff {
     \clef "violin"
@@ -74,6 +90,13 @@ mensurstriche = \hide Staff.BarLine
       R1 |
       R1 |
       R1 |
+      b8 cis d e fis4 fis |
+      fis fis fis fis |
+      g2 fis |
+      b,8 cis d e fis4 fis |
+      fis fis cis cis8 cis |
+      e4 b b b |
+      b2 r2 |
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -86,6 +109,13 @@ mensurstriche = \hide Staff.BarLine
     Il es -- toit deux
     fem -- mes tou -- tes
     d’un pa -- ys,
+    Il est bel et bon, bon,
+    bon, bon, bon, com --
+    mè -- re,
+    il est bel et bon, bon,
+    bon, bon, bon, bon, com --
+    mè -- re, mon ma --
+    ry.
   }
   \new Staff {
     \clef "violin_8"
@@ -105,7 +135,15 @@ mensurstriche = \hide Staff.BarLine
       r2 e'4. d8 |
       cis4 d a b |
       d4. cis8 b4 a |
-      b2
+      b2 e,8 fis g a |
+      b4 b d d |
+      cis cis a2 |
+      b2 b8 a g a |
+      b4 b d d |
+      cis2 a4 a |
+      b4. a8 g4 fis |
+      e1.
+      r2 |
     }
   } \addlyrics {
     Il est bel et
@@ -120,6 +158,14 @@ mensurstriche = \hide Staff.BarLine
     l’une à l’au -- tre:
     a -- vez bon ma --
     ry.
+    Il est bel et
+    bon, bon, bon, bon,
+    bon com -- mè --
+    re, il est bel et
+    bon, bon, bon, bon,
+    bon, bon, com --
+    mè -- re, mon ma --
+    ry. __
   }
   \new Staff {
     \clef "bass"
@@ -140,6 +186,14 @@ mensurstriche = \hide Staff.BarLine
       a4. g8 fis4 g |
       d e g4. fis8 |
       e4 d e1
+      b8 cis d e |
+      fis4 fis fis fis |
+      e2 b2~ |
+      b2 b8 cis d e |
+      fis4 fis fis fis |
+      e e b b |
+      e1.
+      r2 |
     }
   } \addlyrics {
     Il est bel et
@@ -152,5 +206,12 @@ mensurstriche = \hide Staff.BarLine
     Di -- sans l’une à
     l’au -- tre: a -- vez
     bon ma -- ry. __
+    Il est bel et
+    bon, bon, bon, com --
+    mè -- re, __
+    il est bel et
+    bon, bon, bon, com --
+    mè -- re mon ma --
+    ry. __
   }
 >>
