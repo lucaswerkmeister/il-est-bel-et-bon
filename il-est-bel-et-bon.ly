@@ -48,7 +48,10 @@ mensurstriche = \hide Staff.BarLine
       b b b b |
       a fis8 fis a4 fis8 fis |
       g4 e e d |
-      e2
+      e2 e4. e8 |
+      b'4 b a a |
+      e'2. d4 | \pageBreak
+      cis cis b1
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -69,7 +72,10 @@ mensurstriche = \hide Staff.BarLine
     bon, bon, bon, com --
     mè -- re, com -- mè -- re, com --
     mè -- re, mon ma --
-    ry.
+    ry. Il ne
+    me cou -- rous -- se,
+    ne me
+    bat aus -- sy. __
   }
   \new Staff {
     \clef "violin"
@@ -97,6 +103,10 @@ mensurstriche = \hide Staff.BarLine
       fis fis cis cis8 cis |
       e4 b b b |
       b2 r2 |
+      b4. b8 fis'4 fis |
+      e e b'2~ |
+      b4 a g g |
+      fis1 |
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -116,6 +126,10 @@ mensurstriche = \hide Staff.BarLine
     bon, bon, bon, bon, com --
     mè -- re, mon ma --
     ry.
+    Il ne
+    me cou -- rous -- se,
+    ne me
+    bat aus -- sy. __
   }
   \new Staff {
     \clef "violin_8"
@@ -144,6 +158,11 @@ mensurstriche = \hide Staff.BarLine
       b4. a8 g4 fis |
       e1.
       r2 |
+      R1 |
+      r2 e4. e8 |
+      b'4 b a a |
+      e'2. d4 |
+      cis cis b2 |
     }
   } \addlyrics {
     Il est bel et
@@ -166,6 +185,10 @@ mensurstriche = \hide Staff.BarLine
     bon, bon, com --
     mè -- re, mon ma --
     ry. __
+    Il ne
+    me cou -- rous -- se,
+    ne me
+    bat aus -- sy.
   }
   \new Staff {
     \clef "bass"
@@ -194,6 +217,12 @@ mensurstriche = \hide Staff.BarLine
       e e b b |
       e1.
       r2 |
+      R1 |
+      R1 |
+      b4. b8 fis'4 fis |
+      e e b'2.
+      a4 g2 |
+      g fis |
     }
   } \addlyrics {
     Il est bel et
@@ -213,5 +242,9 @@ mensurstriche = \hide Staff.BarLine
     bon, bon, bon, com --
     mè -- re mon ma --
     ry. __
+    Il ne
+    me cou -- rous -- se,
+    ne me
+    bat aus -- sy.
   }
 >>
