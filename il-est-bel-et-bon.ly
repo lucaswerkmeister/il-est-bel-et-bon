@@ -23,7 +23,7 @@ mensurstriche = \hide Staff.BarLine
 \new StaffGroup \with {
   \hide Staff.BarLine
 } <<
-  \new Staff {
+  \new Staff = "S" {
     \clef "violin"
     \key b \minor
     \time 2/2
@@ -77,7 +77,7 @@ mensurstriche = \hide Staff.BarLine
     ne me
     bat aus -- sy. __
   }
-  \new Staff {
+  \new Staff = "A" {
     \clef "violin"
     \key b \minor
     \time 2/2
@@ -131,7 +131,7 @@ mensurstriche = \hide Staff.BarLine
     ne me
     bat aus -- sy. __
   }
-  \new Staff {
+  \new Staff = "T" {
     \clef "violin_8"
     \key b \minor
     \time 2/2
@@ -190,7 +190,7 @@ mensurstriche = \hide Staff.BarLine
     ne me
     bat aus -- sy.
   }
-  \new Staff {
+  \new Staff = "B" {
     \clef "bass"
     \key b \minor
     \time 2/2
