@@ -71,6 +71,12 @@ mensurstriche = \hide Staff.BarLine
       a r4 b |
       cis cis b4. a8 |
       g2 fis | \break
+      r4 fis b a8 fis |
+      g4 fis8 a b4 a8 fis |
+      g4 fis8 a b4 a8 fis |
+      g4 fis8 a b4 a8 fis |
+      g4 fis4.( e8) e2
+      d4 e2 | \undo \hide StaffGroup.BarLine \bar "||"
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -112,6 +118,12 @@ mensurstriche = \hide Staff.BarLine
     ent, quant
     les pou -- lail -- les
     cri -- ent:
+    Pe -- ti -- te co --
+    quet -- te, pe -- ti -- te co --
+    quet -- te, pe -- ti -- te co --
+    quet -- te, pe -- ti -- te co --
+    quet -- te, qu’es --
+    se cy?
   }
   \new Staff = "A" {
     \clef "violin"
@@ -160,7 +172,13 @@ mensurstriche = \hide Staff.BarLine
       fis'2. d4 |
       fis4. g8 a2 |
       e1 |
-      r2
+      r2 d4 d |
+      d d d d8 d |
+      d d d d d4 d8 d |
+      d d d d d d d4 |
+      d8 d d d d4 d |
+      d d8 d d4 b |
+      b b b2 |
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -199,6 +217,13 @@ mensurstriche = \hide Staff.BarLine
     les pou --
     lail -- les cri --
     ent:
+    co co
+    co co co co co
+    co co co co da co co
+    co co co co co co da
+    co co co co da, pe --
+    ti -- te co -- quet -- te,
+    qu’es -- se cy?
   }
   \new Staff = "T" {
     \clef "violin_8"
@@ -248,7 +273,12 @@ mensurstriche = \hide Staff.BarLine
       d2 a |
       r4 a g e |
       g g a2 |
-      fis r4
+      fis r4 fis |
+      b a8 fis g4 fis8 a |
+      b4 a8 fis g4 fis8 a |
+      b4 a8 fis g4 fis8 a |
+      b4 a8 a a4 g |
+      fis fis e2 |
     }
   } \addlyrics {
     Il est bel et
@@ -291,7 +321,12 @@ mensurstriche = \hide Staff.BarLine
     cri -- ent,
     quant les pou --
     lail -- les cri --
-    ent:
+    ent: Pe --
+    ti -- te co -- quet -- te, pe --
+    ti -- te co -- quet -- te, pe --
+    ti -- te co -- quet -- te, pe --
+    ti -- te co -- quet -- te,
+    qu’es -- se cy?
   }
   \new Staff = "B" {
     \clef "bass"
@@ -340,7 +375,13 @@ mensurstriche = \hide Staff.BarLine
       r4 b2 fis'
       d4 fis4. g8 |
       a2 e1
-      r4
+      r4 d |
+      d8 d d d g4 d8 d |
+      g4 d8 d g g d d |
+      g4 d8 d g g d d |
+      g4 d8 d g4 d |
+      g d8 d d4 e |
+      b b e2 |
     }
   } \addlyrics {
     Il est bel et
@@ -378,5 +419,12 @@ mensurstriche = \hide Staff.BarLine
     Quant les
     pou -- lail -- les
     cri -- ent: __
+    co
+    co co co co da, co co
+    da, co co co co co co
+    da, co co co co co co
+    da, co co da, pe --
+    ti -- te co -- quet -- te
+    qu’es -- se cy?
   }
 >>
