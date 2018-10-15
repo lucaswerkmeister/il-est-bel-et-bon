@@ -62,7 +62,15 @@ mensurstriche = \hide Staff.BarLine
       d b r a |
       b4.( a8 g4) fis4.(
       e8) e2 d4 |
-      e
+      e e b'2.
+      g4 b4. cis8 |
+      d2 a~ | \break
+      a r4 e |
+      b'2. g4 |
+      b4. cis8 d2 |
+      a r4 b |
+      cis cis b4. a8 |
+      g2 fis | \break
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -95,7 +103,15 @@ mensurstriche = \hide Staff.BarLine
     lail -- les Et
     je __ prends
     mes plai --
-    sirs.
+    sirs. Com -- mè --
+    re, c’est pour
+    ri -- re __
+    Quant
+    les pou --
+    lail -- les cri --
+    ent, quant
+    les pou -- lail -- les
+    cri -- ent:
   }
   \new Staff = "A" {
     \clef "violin"
@@ -137,6 +153,14 @@ mensurstriche = \hide Staff.BarLine
       cis8 d4) e2 |
       b4( a b2) |
       b1 |
+      r4 b fis'2.
+      d4 fis4. g8 |
+      a2 e1
+      r4 b |
+      fis'2. d4 |
+      fis4. g8 a2 |
+      e1 |
+      r2
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -168,6 +192,13 @@ mensurstriche = \hide Staff.BarLine
     mes
     plai --
     sirs. __
+    Com -- mè --
+    re, c’est pour
+    ri -- re
+    Quant
+    les pou --
+    lail -- les cri --
+    ent:
   }
   \new Staff = "T" {
     \clef "violin_8"
@@ -208,7 +239,16 @@ mensurstriche = \hide Staff.BarLine
       r4 b fis'4.( e8) |
       d4.( cis8 b4) a4.(
       g8 fis e) fis2 |
-      e r4
+      e r4 e |
+      b'2. g4 |
+      b4. cis8 d2 |
+      a r |
+      r4 e b'2.
+      g4 b4. cis8 |
+      d2 a |
+      r4 a g e |
+      g g a2 |
+      fis r4
     }
   } \addlyrics {
     Il est bel et
@@ -242,7 +282,16 @@ mensurstriche = \hide Staff.BarLine
     Et je __
     prends __ mes __
     plai --
-    sirs.
+    sirs. Com --
+    mè -- re,
+    c’est pour ri --
+    re
+    Quant les __
+    pou -- lail -- les
+    cri -- ent,
+    quant les pou --
+    lail -- les cri --
+    ent:
   }
   \new Staff = "B" {
     \clef "bass"
@@ -284,6 +333,14 @@ mensurstriche = \hide Staff.BarLine
       r b e a, |
       b( cis) b2 |
       e1.
+      r4 b2
+      fis' d4 |
+      fis4. g8 a2 |
+      e1 |
+      r4 b2 fis'
+      d4 fis4. g8 |
+      a2 e1
+      r4
     }
   } \addlyrics {
     Il est bel et
@@ -314,5 +371,12 @@ mensurstriche = \hide Staff.BarLine
     Et je prends
     mes __ plai --
     sirs. __
+    Com --
+    mè -- re,
+    c’est pour ri --
+    re __
+    Quant les
+    pou -- lail -- les
+    cri -- ent: __
   }
 >>
