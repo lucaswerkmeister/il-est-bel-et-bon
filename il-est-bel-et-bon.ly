@@ -52,6 +52,17 @@ mensurstriche = \hide Staff.BarLine
       b'4 b a a |
       e'2. d4 | \pageBreak
       cis cis b1
+      r2 |
+      R1 |
+      r2 b4. b8 |
+      b4 b a fis |
+      cis'4. cis8 e4 e |
+      d b r2 | \break
+      cis4. cis8 e4 e |
+      d b r a |
+      b4.( a8 g4) fis4.(
+      e8) e2 d4 |
+      e
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -76,6 +87,15 @@ mensurstriche = \hide Staff.BarLine
     me cou -- rous -- se,
     ne me
     bat aus -- sy. __
+    Il fait
+    le mé -- na -- ge,
+    il donne aux pou --
+    lail -- les,
+    il donne aux pou --
+    lail -- les Et
+    je __ prends
+    mes plai --
+    sirs.
   }
   \new Staff = "A" {
     \clef "violin"
@@ -107,6 +127,16 @@ mensurstriche = \hide Staff.BarLine
       e e b'2~ |
       b4 a g g |
       fis1 |
+      R1 |
+      R1 |
+      r2 a4. a8 |
+      a4 a g e |
+      r2 fis4. g8 |
+      a4 a g e |
+      r b cis d4.(
+      cis8 d4) e2 |
+      b4( a b2) |
+      b1 |
     }
   } \addlyrics {
     Il est bel et bon, bon,
@@ -130,6 +160,14 @@ mensurstriche = \hide Staff.BarLine
     me cou -- rous -- se,
     ne me
     bat aus -- sy. __
+    Il fait
+    le mé -- na -- ge,
+    il fait
+    le mé -- na -- ge
+    Et je prends __
+    mes
+    plai --
+    sirs. __
   }
   \new Staff = "T" {
     \clef "violin_8"
@@ -163,6 +201,14 @@ mensurstriche = \hide Staff.BarLine
       b'4 b a a |
       e'2. d4 |
       cis cis b2 |
+      d4. d8 d4 d |
+      cis a r2 |
+      b4. b8 d4 d |
+      cis a r2 |
+      r4 b fis'4.( e8) |
+      d4.( cis8 b4) a4.(
+      g8 fis e) fis2 |
+      e r4
     }
   } \addlyrics {
     Il est bel et
@@ -189,6 +235,14 @@ mensurstriche = \hide Staff.BarLine
     me cou -- rous -- se,
     ne me
     bat aus -- sy.
+    Il fait le mé --
+    na -- ge,
+    il fait le mé --
+    na -- ge
+    Et je __
+    prends __ mes __
+    plai --
+    sirs.
   }
   \new Staff = "B" {
     \clef "bass"
@@ -223,6 +277,13 @@ mensurstriche = \hide Staff.BarLine
       e e b'2.
       a4 g2 |
       g fis |
+      r2 e4. e8 |
+      g4 g fis d |
+      r2 e4. e8 |
+      g4 g fis d |
+      r b e a, |
+      b( cis) b2 |
+      e1.
     }
   } \addlyrics {
     Il est bel et
@@ -246,5 +307,12 @@ mensurstriche = \hide Staff.BarLine
     me cou -- rous -- se,
     ne me
     bat aus -- sy.
+    Il fait
+    le mé -- na -- ge
+    il fait
+    le mé -- na -- ge
+    Et je prends
+    mes __ plai --
+    sirs. __
   }
 >>
