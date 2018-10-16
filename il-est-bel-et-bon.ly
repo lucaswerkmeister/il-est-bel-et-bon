@@ -3,6 +3,7 @@
 \header {
   title = "Il est bel et bon"
   composer = "Passereau, um 1540"
+  tagline = ##f
 }
 
 #(set-global-staff-size 16)
