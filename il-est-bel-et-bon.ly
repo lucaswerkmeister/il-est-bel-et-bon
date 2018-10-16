@@ -5,7 +5,7 @@
   composer = "Passereau, um 1540"
 }
 
-#(set-global-staff-size 14)
+#(set-global-staff-size 16)
 
 \layout {
   \context {
@@ -16,6 +16,10 @@
     \Score
     \override NonMusicalPaperColumn.line-break-permission = ##f
     \override NonMusicalPaperColumn.page-break-permission = ##f
+  }
+  \context {
+    \Lyrics
+    \override LyricText.font-size = #-1
   }
 }
 
