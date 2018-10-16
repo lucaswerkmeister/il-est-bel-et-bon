@@ -10,7 +10,7 @@
 
 \layout {
   \context {
-    \Voice
+    \Staff
     \consists "Ambitus_engraver" % TODO outside staff group bracket
   }
   \context {
@@ -40,6 +40,9 @@ Fine = \markup { \text \large \italic Fine }
   \hide Staff.BarLine
   \autoBeamOff
 } <<
+  % TODO for the parenthesized repeats at the beginning,
+  % a) the parenthesis should span the whole duration of the note, including the tie, and
+  % b) the ties at the beginning and end should be longer
   \new Staff = "S" {
     \clef "violin"
     \key b \minor
@@ -154,7 +157,7 @@ Fine = \markup { \text \large \italic Fine }
     \key b \minor
     \time 2/2
     \relative b {
-      R1 |
+      << R1 \new Voice \parenthesize b1\repeatTie >> |
       b8 cis d e fis4 fis |
       fis fis fis fis |
       g2 fis |
@@ -203,9 +206,10 @@ Fine = \markup { \text \large \italic Fine }
       d d d d d d d4 |
       d8 d d d d4 d |
       d d8 d d4 b |
-      b b b2 |
+      b b b2\laissezVibrer | % actually a tie
     }
   } \addlyrics {
+    \skip 1
     Il est bel et bon, bon,
     bon, bon, bon, com --
     mè -- re,
@@ -256,7 +260,7 @@ Fine = \markup { \text \large \italic Fine }
     \key b \minor
     \time 2/2
     \relative e {
-      r2 e8 fis g a |
+      << \absolute \tweak X-offset #3 b2\rest \new Voice \parenthesize e2\repeatTie >> e8 fis g a |
       b4 b d d |
       cis cis a2 |
       b2 b8 a g a |
@@ -305,9 +309,10 @@ Fine = \markup { \text \large \italic Fine }
       b4 a8 fis g4 fis8 a |
       b4 a8 fis g4 fis8 a |
       b4 a8 a a4 g |
-      fis fis e2 |
+      fis fis e2\laissezVibrer | % actually a tie
     }
   } \addlyrics {
+    \skip 1
     Il est bel et
     bon, bon, bon, bon,
     bon com -- mè --
@@ -361,7 +366,7 @@ Fine = \markup { \text \large \italic Fine }
     \key b \minor
     \time 2/2
     \relative b, {
-      r1. % TODO should be R, centered, but that doesn’t support dotted?
+      << r1. \new Voice \parenthesize e1.\repeatTie >> % TODO should be R, centered, but that doesn’t support dotted?
       b8 cis d e |
       fis4 fis fis fis |
       e2 b1
@@ -410,12 +415,13 @@ Fine = \markup { \text \large \italic Fine }
       g4 d8 d g g d d |
       g4 d8 d g4 d |
       g d8 d d4 e |
-      b b e2 |
+      b b e2\laissezVibrer | % actually a tie
       \tweak RehearsalMark.self-alignment-X #RIGHT
       \tweak RehearsalMark.direction #DOWN
       \mark \markup { \text \normalsize \italic "D.C. al Fine" }
     }
   } \addlyrics {
+    \skip 1
     Il est bel et
     bon, bon, bon, com --
     mè -- re, __ % TODO this and other extenders should be longer
