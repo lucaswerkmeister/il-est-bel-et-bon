@@ -5,6 +5,8 @@
   composer = "Passereau, um 1540"
 }
 
+#(set-global-staff-size 14)
+
 \layout {
   \context {
     \Voice
