@@ -17,6 +17,11 @@
   }
 }
 
+\paper {
+  ragged-last-bottom = ##f
+  ragged-bottom = ##f
+}
+
 mensurstriche = \hide Staff.BarLine
 
 %\transpose e es
