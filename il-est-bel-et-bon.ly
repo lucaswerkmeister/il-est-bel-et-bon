@@ -32,6 +32,7 @@
 
 mensurstriche = \hide Staff.BarLine
 
+parenSharp = \markup { \small \concat { \musicglyph "accidentals.leftparen" \musicglyph "accidentals.sharp" \musicglyph "accidentals.rightparen" } }
 Fine = \markup { \text \large \italic Fine }
 
 %\transpose e es
@@ -50,7 +51,7 @@ Fine = \markup { \text \large \italic Fine }
       e8 fis g a b4 b |
       b b b b | \break
       a fis8 fis a4 fis8 fis |
-      g4 e e d |
+      g4 e e d^\parenSharp |
       \set Score.repeatCommands = #`((volta ,Fine))
       e1 | \once \undo \hide StaffGroup.BarLine \bar "|."
       \set Score.currentBarNumber = #8
@@ -69,7 +70,7 @@ Fine = \markup { \text \large \italic Fine }
       e8 fis g a b4 b | \break
       b b b b |
       a fis8 fis a4 fis8 fis |
-      g4 e e d |
+      g4 e e d^\parenSharp |
       e2 e4. e8 |
       b'4 b a a |
       e'2. d4 | \pageBreak
@@ -83,7 +84,7 @@ Fine = \markup { \text \large \italic Fine }
       cis4. cis8 e4 e |
       d b r a |
       b4.( a8 g4) fis4.(
-      e8) e2 d4 |
+      e8) e2 d4^\parenSharp |
       e e b'2.
       g4 b4. cis8 |
       d2 a~ | \break
@@ -98,7 +99,7 @@ Fine = \markup { \text \large \italic Fine }
       g4 fis8 a b4 a8 fis |
       g4 fis8 a b4 a8 fis |
       g4 fis4.( e8) e2
-      d4 e2 | \undo \hide StaffGroup.BarLine \bar "||"
+      d4^\parenSharp e2 | \undo \hide StaffGroup.BarLine \bar "||"
     }
   } \addlyrics {
     Il est bel et bon, bon,
