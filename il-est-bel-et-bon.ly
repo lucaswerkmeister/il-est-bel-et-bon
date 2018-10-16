@@ -22,6 +22,7 @@ mensurstriche = \hide Staff.BarLine
 %\transpose e es
 \new StaffGroup \with {
   \hide Staff.BarLine
+  \autoBeamOff
 } <<
   \new Staff = "S" {
     \clef "violin"
@@ -263,7 +264,7 @@ mensurstriche = \hide Staff.BarLine
       cis a r2 |
       r4 b fis'4.( e8) |
       d4.( cis8 b4) a4.(
-      g8 fis e) fis2 |
+      g8[ fis e]) fis2 |
       e r4 e |
       b'2. g4 |
       b4. cis8 d2 |
