@@ -31,6 +31,8 @@
 
 mensurstriche = \hide Staff.BarLine
 
+Fine = \markup { \text \large \italic Fine }
+
 %\transpose e es
 \new StaffGroup \with {
   \hide Staff.BarLine
@@ -48,7 +50,13 @@ mensurstriche = \hide Staff.BarLine
       b b b b | \break
       a fis8 fis a4 fis8 fis |
       g4 e e d |
+      \set Score.repeatCommands = #`((volta ,Fine))
+      e1 | \once \undo \hide StaffGroup.BarLine \bar "|."
+      \set Score.currentBarNumber = #8
+      \set Score.repeatCommands = #'((volta #f) (volta "1"))
+      %\set Score.voltaSpannerDuration = #(ly:make-moment 2/4)
       e2 e'4. d8 |
+      \set Score.repeatCommands = #'((volta #f))
       cis4 d a b |
       d4. cis8 b4 a |
       b1 | \break
@@ -99,6 +107,7 @@ mensurstriche = \hide Staff.BarLine
     bon, bon, bon, com --
     mè -- re, com -- mè -- re, com --
     mè -- re, mon ma --
+    ry.
     ry. Il es --
     toit deux fem -- mes
     tou -- tes d’un pa --
@@ -150,6 +159,7 @@ mensurstriche = \hide Staff.BarLine
       b,8 cis d e fis4 fis |
       fis fis cis cis8 cis |
       e4 b b b |
+      b1 |
       b2 r2 |
       a'4. g8 fis4 g |
       d e g4. fis8 |
@@ -201,6 +211,7 @@ mensurstriche = \hide Staff.BarLine
     bon, bon, bon, bon, com --
     mè -- re, mon ma --
     ry.
+    ry.
     Il es -- toit deux
     fem -- mes tou -- tes
     d’un pa -- ys,
@@ -250,6 +261,7 @@ mensurstriche = \hide Staff.BarLine
       b4 b d d |
       cis2 a4 a |
       b4. a8 g4 fis |
+      e1 |
       e1 |
       R1 |
       R1 |
@@ -301,6 +313,7 @@ mensurstriche = \hide Staff.BarLine
     bon, bon, bon, bon,
     bon, bon, com --
     mè -- re, mon ma --
+    ry.
     ry. __
     Di -- sans
     l’une à l’au -- tre:
@@ -354,6 +367,7 @@ mensurstriche = \hide Staff.BarLine
       fis4 fis fis fis |
       e e b b |
       e1 |
+      e1 |
       R1 |
       R1 |
       R1 |
@@ -395,6 +409,9 @@ mensurstriche = \hide Staff.BarLine
       g4 d8 d g4 d |
       g d8 d d4 e |
       b b e2 |
+      \tweak RehearsalMark.self-alignment-X #RIGHT
+      \tweak RehearsalMark.direction #DOWN
+      \mark \markup { \text \normalsize \italic "D.C. al Fine" }
     }
   } \addlyrics {
     Il est bel et
@@ -403,6 +420,7 @@ mensurstriche = \hide Staff.BarLine
     il est bel et
     bon, bon, bon, com --
     mè -- re mon ma --
+    ry.
     ry. __
     Di -- sans l’une à
     l’au -- tre: a -- vez
