@@ -20,6 +20,7 @@
 \paper {
   ragged-last-bottom = ##f
   ragged-bottom = ##f
+  indent = #0
 }
 
 mensurstriche = \hide Staff.BarLine
