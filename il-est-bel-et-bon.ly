@@ -124,7 +124,7 @@ extendedNote =
     ry. Il es --
     toit deux fem -- mes
     tou -- tes d’un pa --
-    ys, __
+    "ys, " __
     Il est bel et bon, bon,
     bon, bon, bon, com --
     mè -- re,
@@ -135,18 +135,18 @@ extendedNote =
     ry. Il ne
     me cou -- rous -- se,
     ne me
-    bat aus -- sy. __
+    bat aus -- "sy. " __
     Il fait
     le mé -- na -- ge,
     il donne aux pou --
     lail -- les,
     il donne aux pou --
     lail -- les Et
-    je __ prends
+    "je " __ prends
     mes plai --
     sirs. Com -- mè --
     re, c’est pour
-    ri -- re __
+    ri -- "re " __
     Quant
     les pou --
     lail -- les cri --
@@ -238,23 +238,23 @@ extendedNote =
     ry.
     Il ne
     me cou -- rous -- se,
-    ne __ me
-    bat aus -- sy. __
+    "ne " __ me
+    bat aus -- "sy. " __
     Il fait
     le mé -- na -- ge,
     il fait
     le mé -- na -- ge
-    Et je prends __
+    Et je "prends " __
     mes
     plai --
-    sirs. __
+    "sirs. " __
     Com -- mè --
     re, c’est pour
-    ri -- re __
+    ri -- "re " __
     Quant
     les pou --
     lail -- les cri --
-    ent: __
+    "ent: " __
     co co
     co co co co co
     co co co co da co co
@@ -329,7 +329,7 @@ extendedNote =
     bon, bon, com --
     mè -- re, mon ma --
     ry.
-    ry. __
+    "ry. " __
     Di -- sans
     l’une à l’au -- tre:
     a -- vez bon ma --
@@ -341,7 +341,7 @@ extendedNote =
     bon, bon, bon, bon,
     bon, bon, com --
     mè -- re, mon ma --
-    ry. __
+    "ry. " __
     Il ne
     me cou -- rous -- se,
     ne me
@@ -350,14 +350,14 @@ extendedNote =
     na -- ge,
     il fait le mé --
     na -- ge
-    Et je __
-    prends __ mes __
+    Et "je " __
+    "prends " __ "mes " __
     plai --
     sirs. Com --
     mè -- re,
     c’est pour ri --
     re
-    Quant les __
+    Quant "les " __
     pou -- lail -- les
     cri -- ent,
     quant les pou --
@@ -432,40 +432,40 @@ extendedNote =
     \skip 1
     Il est bel et
     bon, bon, bon, com --
-    mè -- re, __
+    mè -- "re, " __
     il est bel et
     bon, bon, bon, com --
     mè -- re mon ma --
     ry.
-    ry. __
+    "ry. " __
     Di -- sans l’une à
     l’au -- tre: a -- vez
-    bon ma -- ry. __
+    bon ma -- "ry. " __
     Il est bel et
     bon, bon, bon, com --
-    mè -- re, __
+    mè -- "re, " __
     il est bel et
     bon, bon, bon, com --
     mè -- re mon ma --
-    ry. __
+    "ry. " __
     Il ne
     me cou -- rous -- se,
-    ne __ me
+    "ne " __ me
     bat aus -- sy.
     Il fait
     le mé -- na -- ge
     il fait
     le mé -- na -- ge
     Et je prends
-    mes __ plai --
-    sirs. __
+    "mes " __ plai --
+    "sirs. " __
     Com --
     mè -- re,
     c’est pour ri --
-    re __
+    "re " __
     Quant les
     pou -- lail -- les
-    cri -- ent: __
+    cri -- "ent: " __
     co
     co co co co da, co co
     da, co co co co co co
