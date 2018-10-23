@@ -40,7 +40,7 @@ extendedNote =
      (parser location note)
      (ly:music?)
    #{
-    \afterGrace 15/16 $note { \once \hideNotes \absolute $note }
+    \afterGrace 15/16 $note { \once \hideNotes \drummode { bd } }
    #})
 
 %\transpose e es
