@@ -35,6 +35,14 @@ mensurstriche = \hide Staff.BarLine
 parenSharp = \markup { \small \concat { \musicglyph "accidentals.leftparen" \musicglyph "accidentals.sharp" \musicglyph "accidentals.rightparen" } }
 Fine = \markup { \text \large \italic Fine }
 
+extendedNote =
+#(define-music-function
+     (parser location note)
+     (ly:music?)
+   #{
+    \afterGrace 15/16 $note { \once \hideNotes \absolute $note }
+   #})
+
 %\transpose e es
 \new StaffGroup \with {
   \hide Staff.BarLine
@@ -64,7 +72,7 @@ Fine = \markup { \text \large \italic Fine }
       \set Score.repeatCommands = #'((volta #f))
       cis4 d a b |
       d4. cis8 b4 a |
-      b1 | \break
+      \extendedNote b1 | \break
       R1 |
       R1 |
       e,8 fis g a b4 b |
@@ -77,7 +85,7 @@ Fine = \markup { \text \large \italic Fine }
       e2 e4. e8 |
       b'4 b a a |
       e'2. d4 | \pageBreak
-      cis cis b1
+      cis cis \extendedNote b1
       r2 |
       R1 |
       r2 b4. b8 |
@@ -91,7 +99,7 @@ Fine = \markup { \text \large \italic Fine }
       e e b'2.
       g4 b4. cis8 |
       d2 a~ | \break
-      a r4 e |
+      \extendedNote a r4 e |
       b'2. g4 |
       b4. cis8 d2 |
       a r4 b |
@@ -116,7 +124,7 @@ Fine = \markup { \text \large \italic Fine }
     ry. Il es --
     toit deux fem -- mes
     tou -- tes d’un pa --
-    ys,
+    ys, __
     Il est bel et bon, bon,
     bon, bon, bon, com --
     mè -- re,
@@ -182,7 +190,7 @@ Fine = \markup { \text \large \italic Fine }
       b4. b8 fis'4 fis |
       e e b'2~ |
       b4 a g g |
-      fis1 |
+      \extendedNote fis1 |
       R1 |
       R1 |
       r2 a4. a8 |
@@ -192,14 +200,14 @@ Fine = \markup { \text \large \italic Fine }
       r b cis d4.(
       cis8 d4) e2 |
       b4( a b2) |
-      b1 |
+      \extendedNote b1 |
       r4 b fis'2.
       d4 fis4. g8 |
-      a2 e1
+      a2 \extendedNote e1
       r4 b |
       fis'2. d4 |
       fis4. g8 a2 |
-      e1 |
+      \extendedNote e1 |
       r2 d4 d |
       d d d d8 d |
       d d d d d4 d8 d |
@@ -230,7 +238,7 @@ Fine = \markup { \text \large \italic Fine }
     ry.
     Il ne
     me cou -- rous -- se,
-    ne me
+    ne __ me
     bat aus -- sy. __
     Il fait
     le mé -- na -- ge,
@@ -242,11 +250,11 @@ Fine = \markup { \text \large \italic Fine }
     sirs. __
     Com -- mè --
     re, c’est pour
-    ri -- re
+    ri -- re __
     Quant
     les pou --
     lail -- les cri --
-    ent:
+    ent: __
     co co
     co co co co co
     co co co co da co co
@@ -268,7 +276,7 @@ Fine = \markup { \text \large \italic Fine }
       cis2 a4 a |
       b4. a8 g4 fis |
       e1 |
-      e1 |
+      \extendedNote e1 |
       R1 |
       R1 |
       r2 e'4. d8 |
@@ -281,7 +289,7 @@ Fine = \markup { \text \large \italic Fine }
       b4 b d d |
       cis2 a4 a |
       b4. a8 g4 fis |
-      e1.
+      \extendedNote e1.
       r2 |
       R1 |
       r2 e4. e8 |
@@ -299,7 +307,7 @@ Fine = \markup { \text \large \italic Fine }
       b'2. g4 |
       b4. cis8 d2 |
       a r |
-      r4 e b'2.
+      r4 e \extendedNote b'2.
       g4 b4. cis8 |
       d2 a |
       r4 a g e |
@@ -369,30 +377,30 @@ Fine = \markup { \text \large \italic Fine }
       << r1. \new Voice \parenthesize e1.\repeatTie >> % TODO should be R, centered, but that doesn’t support dotted?
       b8 cis d e |
       fis4 fis fis fis |
-      e2 b1
+      e2 \extendedNote b1
       b8 cis d e |
       fis4 fis fis fis |
       e e b b |
       e1 |
-      e1 |
+      \extendedNote e1 |
       R1 |
       R1 |
       R1 |
       a4. g8 fis4 g |
       d e g4. fis8 |
-      e4 d e1
+      e4 d \extendedNote e1
       b8 cis d e |
       fis4 fis fis fis |
       e2 b2~ |
-      b2 b8 cis d e |
+      \extendedNote b2 b8 cis d e |
       fis4 fis fis fis |
       e e b b |
-      e1.
+      \extendedNote e1.
       r2 |
       R1 |
       R1 |
       b4. b8 fis'4 fis |
-      e e b'2.
+      e e \extendedNote b'2.
       a4 g2 |
       g fis |
       r2 e4. e8 |
@@ -401,14 +409,14 @@ Fine = \markup { \text \large \italic Fine }
       g4 g fis d |
       r b e a, |
       b( cis) b2 |
-      e1.
+      \extendedNote e1.
       r4 b2
       fis' d4 |
       fis4. g8 a2 |
-      e1 |
+      \extendedNote e1 |
       r4 b2 fis'
       d4 fis4. g8 |
-      a2 e1
+      a2 \extendedNote e1
       r4 d |
       d8 d d d g4 d8 d |
       g4 d8 d g g d d |
@@ -424,7 +432,7 @@ Fine = \markup { \text \large \italic Fine }
     \skip 1
     Il est bel et
     bon, bon, bon, com --
-    mè -- re, __ % TODO this and other extenders should be longer
+    mè -- re, __
     il est bel et
     bon, bon, bon, com --
     mè -- re mon ma --
@@ -442,7 +450,7 @@ Fine = \markup { \text \large \italic Fine }
     ry. __
     Il ne
     me cou -- rous -- se,
-    ne me
+    ne __ me
     bat aus -- sy.
     Il fait
     le mé -- na -- ge
